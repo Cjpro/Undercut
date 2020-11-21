@@ -1,0 +1,33 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/Cory/CLionProjects/Test
+-- Using header-only CGAL
+-- Targetting Unix Makefiles
+-- Using /Library/Developer/CommandLineTools/usr/bin/c++ compiler.
+-- DARWIN_VERSION=20
+-- Mac Leopard detected
+-- Boost include dirs: /usr/local/include
+-- Boost libraries:    
+-- Build type: Debug
+-- USING CXXFLAGS = ' -std=c++11 -g'
+-- USING EXEFLAGS = ' '
+-- Requested component: MPFR
+-- Requested component: GMPXX
+-- Requested component: GMP
+CMake Warning at /usr/local/lib/cmake/CGAL/CGAL_enable_end_of_configuration_hook.cmake:99 (message):
+  =======================================================================
+
+  CGAL performance notice:
+
+  The variable CMAKE_BUILD_TYPE is set to "Debug".  For performance reasons,
+  you should set CMAKE_BUILD_TYPE to "Release".
+
+  Set CGAL_DO_NOT_WARN_ABOUT_CMAKE_BUILD_TYPE to TRUE if you want to disable
+  this warning.
+
+  =======================================================================
+Call Stack (most recent call first):
+  CMakeLists.txt:9223372036854775807 (CGAL_run_at_the_end_of_configuration)
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/Cory/CLionProjects/Test/cmake-build-debug
